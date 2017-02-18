@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/duongvien">
+
+
+
+    <FrameLayout
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+       >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/hinhnengirldep"
+            android:id="@+id/imageview_avatar"
+            />
+
+
+    </FrameLayout>
+
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:id="@+id/textview_hoten"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:id="@+id/textview_mssv"
+            android:textSize="12dp"
+            android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:id="@+id/textview_diachi"
+            android:textSize="12dp"
+            android:textColor="#ff000000"/>
+
+    </LinearLayout>
+
+</LinearLayout>
